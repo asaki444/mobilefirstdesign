@@ -48,4 +48,8 @@ ul li:first-child{
 
 .details {
    display: block;
+   padding: 2em;
+   border: solid 1px #006666;
+   margin: 1em;
+   box-shadow: 3px 3px #888888;
 }

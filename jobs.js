@@ -20,7 +20,7 @@ let  jobsJSON = [
     title: "IT / Enterprise : Senior Windows Systems Engineer",
     company: "Confidential Company",
     location: "New York, NY",
-    desciption: "Searching for a (UI + Drupal ) - Technical Lead / Architect with at least 4 years of experience in Drupal development and administration - theming, module building, core updates etc."
+    description: "Searching for a (UI + Drupal ) - Technical Lead / Architect with at least 4 years of experience in Drupal development and administration - theming, module building, core updates etc."
   },{
       title: "Full Stack Java / UI Software Engineer - Treasury Services",
       company:"JPMorgan Chase",
