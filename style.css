@@ -1,0 +1,51 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    font-size: 45px;
+    padding-bottom: 3em;
+    padding-top: 3em;
+    border: solid white;
+    border-bottom-color: #00e2e2;
+    text-align: center;
+}
+
+ul li a{
+   text-decoration: none;
+   color: #00e2e2;
+   font-weight: bold;
+}
+
+ul li a:hover{
+  background-color: black;
+}
+ul li:first-child{
+    padding-top: 1em;
+}
+
+#exit, #name{
+    font-size: 60px;
+    text-align: center;
+    padding: 1em;
+    color:white;
+    margin-top:0px;
+    background-color: #00e2e2;
+    display: inline-block;
+}
+
+
+#name{
+    background-color: white;
+    color: #00e2e2 ;
+}
+
+.hide{
+    display: none;
+}
+
+.details {
+   display: block;
+}

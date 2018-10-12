@@ -6,7 +6,7 @@ let  jobsJSON = [
     },
     {
      title: "Software Engineer in Test",
-     comapany: "Ladders Inc.",
+     company: "Ladders Inc.",
      location: "New York, NY ",
      description: "Participate in the requirements definition, design and development of a robust, extensible test harness for the company's functional test automation."
     },
@@ -28,3 +28,35 @@ let  jobsJSON = [
       description: "The Treasury Services team is seeking a Full Stack Java / UI Software Engineer. This individual will work with a team that develops smart and scalable solutions to provide a solid experience for our users"
   }
 ]
+
+function toggleMenu(){
+    let exit = document.getElementById("exit");
+    let menu = document.getElementsByTagName("div")[0]
+    if(menu.hasAttribute("class"))
+    {   menu.removeAttribute("class");
+        exit.innerHTML = "<" ;
+    }
+    else{
+        menu.className = "hide";
+        exit.innerHTML = ">" ;
+    }
+}
+let jobs = document.getElementById("jobs")
+function seeJobs(){
+    for(let i = 0; i < jobsJSON.length; i++){
+    let job = jobsJSON[i]
+    let jobInfo = `
+    <div class="details">
+    <h4> ${job["title"]}</h4>
+    <h5> ${job["company"]}</h5>
+    <h6>${job["location"]}</h6>
+    <p>${job["description"]}</p>
+    </div>
+    `
+    jobs.innerHTML+=jobInfo
+    console.log(jobs)
+    }
+}
+
+window.seeJobs();
+

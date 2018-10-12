@@ -3,14 +3,21 @@
 <html>
 <head>
 <title>Ladders Inc.</title>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-<nav>
-    <p>Ladders Inc.</p>
-    <a href="/">Jobs</a>
-    <a href="/resume">Resume</a>
-</nav>
-
+        <h3 id="exit" onClick="toggleMenu()">></h3> 
+        <h3 id="name">Ladders Inc.</h3>
+    <div class="hide">
+        <ul id="navigation">
+            <li><a href="/">Jobs</a></li>
+            <li><a href="/resume">Resume</a></li>
+        </ul>
+    </div>
+    <div id="jobs">
+        
+    </div>
 </body>
+<script src="jobs.js"></script>
 </html>
