@@ -56,52 +56,49 @@ ul li:first-child{
    box-shadow: 3px 3px #888888;
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-       .details{
-           font-size: 40px;
-       }
 
+@media only screen and (min-device-width : 768px) {
+    #exit{
+        display:none;
     }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-        /* Styles */
+
+
+ #name{
+    padding: 0;
+    font-size: 40px;
+    display:inline;
+
+  }
+ 
+
+.hide {
+     border-bottom-color: none;
+     display: inline;
+ }
+
+ ul li{
+    font-size: 20px;
+    display:inline;
+    padding:0; 
+ }
+
+ ul{
+     display: inline-block;
+     margin-left: 10px;
+     
+ }
+ 
+ .details{
+    display:inline-block;
+    width: 20%;
+    font-size: 15px;
+ }
     
 }
         /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
-        #exit{
-            display:none;
-        }
-
-    
-   
-     #name{
-        padding: 0;
-        font-size: 40px;
-        display:inline;
-    
-      }
-     
-
-    .hide {
-         border-bottom-color: none;
-         display: inline;
-     }
-
-     ul li{
-        font-size: 20px;
-        display:inline;
-        padding:0; 
-     }
-
-     ul{
-         display: inline-block;
-         margin-left: 10px;
-         
-     }
-     
      .details{
-        display:inline-block;
         width: 25%;
      }
   }
