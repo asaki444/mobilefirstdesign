@@ -29,13 +29,15 @@ ul li:first-child{
 #exit, #name{
     font-size: 60px;
     text-align: center;
-    padding: 1em;
     color:white;
     margin-top:0px;
     background-color: #00e2e2;
     display: inline-block;
 }
 
+#exit{
+    padding: 1em;
+}
 
 #name{
     background-color: white;
@@ -53,3 +55,53 @@ ul li:first-child{
    margin: 1em;
    box-shadow: 3px 3px #888888;
 }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+       .details{
+           font-size: 40px;
+       }
+
+    }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+        /* Styles */
+    
+}
+        /* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+        #exit{
+            display:none;
+        }
+
+    
+   
+     #name{
+        padding: 0;
+        font-size: 40px;
+        display:inline;
+    
+      }
+     
+
+    .hide {
+         border-bottom-color: none;
+         display: inline;
+     }
+
+     ul li{
+        font-size: 20px;
+        display:inline;
+        padding:0; 
+     }
+
+     ul{
+         display: inline-block;
+         margin-left: 10px;
+         
+     }
+     
+     .details{
+        display:inline-block;
+        width: 25%;
+     }
+  }

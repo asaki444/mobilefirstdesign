@@ -1,4 +1,4 @@
-let  jobsJSON = [
+const jobsJSON = [
     {title: "DevOps Engineer",
     company:"Ladders Inc.",
     location: "New York, NY",
